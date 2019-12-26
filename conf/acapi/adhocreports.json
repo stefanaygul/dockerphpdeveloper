@@ -1,0 +1,1064 @@
+{
+	"reports": [
+		{
+			"name": "report-01-firmware-count",
+			"title": "Firmware Reports",
+			"source": "FILE",
+			"description": "Firmware Reports contains latest device / firmware breakdown in field. (Time period is latest 7 days)",
+			"categoryCode": "4",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-03-reboots",
+			"title": "Reboot Analysis Reports",
+			"source": "FILE",
+			"description": "",
+			"categoryCode": "2",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-04-chan_change_5g",
+			"title": "Channel Change Reports for 5GHz",
+			"source": "FILE",
+			"description": "Related report contains number of 5GHz channel changes and related statistics per home, node and tags. (Time period is latest 7 days)",
+			"categoryCode": "1",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-05-chan_change_2g",
+			"title": "Channel Change Reports for 2.4GHz",
+			"source": "FILE",
+			"description": "Related report contains number of 2.4GHz channel changes and related statistics per home, node and tags. (Time period is latest 7 days)",
+			"categoryCode": "1",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-06-airtime",
+			"title": "Airtime Analysis Reports",
+			"source": "FILE",
+			"description": "Related report contains Clear Channel Assessment statistics for 2GHz and 5GHz channels per tag. (Time period is latest 7 days)",
+			"categoryCode": "0",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-07-loadavg",
+			"title": "Load Average Reports",
+			"source": "FILE",
+			"description": "Related report contains average CPU Loads per tag. (Time period is latest 7 days)",
+			"categoryCode": "2",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-14-channel2g",
+			"title": "2.4GHz Channel Usage Reports",
+			"source": "FILE",
+			"description": "Related report contains 2.4GHz channel usage percentages per tag. (Time period is latest 7 days)",
+			"categoryCode": "1",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-15-channel5g",
+			"title": "5GHz Channel Usage Reports",
+			"source": "FILE",
+			"description": "Related report contains 5GHz channel usage percentages per tag. (Time period is latest 7 days)",
+			"categoryCode": "1",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-16-channel-dfs",
+			"title": "Dfs and Non-Dfs Channel Usage Reports",
+			"source": "FILE",
+			"description": "Related report contains Dfs and Non-DFS channel usage percentages per tag. (Time period is latest 7 days)",
+			"categoryCode": "1",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-20-palarms_legacy_detections",
+			"title": "Legacy Client Detection Reports",
+			"source": "FILE",
+			"description": "Related report contains number of Legacy Client Detections per tag according to report date. All statistics are given as percentages of nodes and homes. (Time period is latest 7 days)",
+			"categoryCode": "3",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-21-palarms_nodeinstallation",
+			"title": "Node Installation Health Reports",
+			"source": "FILE",
+			"description": "Related report contains health statistics for meshed nodes and homes, mesh links are categorized into 4 groups weak, bad, too-close and healthy. All statistics are given as percentages of nodes and homes per tag. (Time period is latest 7 days)",
+			"categoryCode": "4",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-22-palarms_vital",
+			"title": "Node Vital Reports",
+			"source": "FILE",
+			"description": "Related report contains percentage of thermal throttle downs that may cause performance degredation in daily use. All statistics are given as percentages of nodes and homes. (Time period is latest 7 days)",
+			"categoryCode": "2",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-23-palarms_radar",
+			"title": "Radar Detection Reports",
+			"source": "FILE",
+			"description": "Related report contains percentage of radar detections per tag. All statistics are given as percentages of nodes and homes.  (Time period is latest 7 days)",
+			"categoryCode": "2",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-24-device_list",
+			"title": "Device List Report",
+			"source": "FILE",
+			"description": "Related report contains all device details like domain-id,repor-date, wan-ip, product-id, eth-mac, serial number, fw, first seen and last seen for all devices in the field. (Time period is latest 7 days)",
+			"categoryCode": "2",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-26-dashboard_broadband_upgrade",
+			"title": "Homes that need Broadband Upgrade",
+			"source": "FILE",
+			"description": "Related report contains all homes that need broadband upgrade according to Wi-Fi Client traffics and technologies. Home details contains domain-id, wan-ip, number of nodes, number of Wi-Fi clients, total download traffic in MB and number of 11ac Wi-Fi client informations. (Time period is latest 7 days)",
+			"categoryCode": "0",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-25-palarms_coverage",
+			"title": "Homes with Coverage Problems",
+			"source": "FILE",
+			"description": "Related report contains all homes that have coverage issues. Home details contains domain-id, wan-ip, eth-mac, serial number informations. (Time period is latest 7 days)",
+			"categoryCode": "0",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-27-dashboard_wifi_client_upgrade",
+			"title": "Homes that need wireless device upgrade",
+			"source": "FILE",
+			"description": "Related report contains all homes that need broadband upgrade according to Wi-Fi Client traffics and technologies. Home details contains domain-id, wan-ip, number of nodes, number of Wi-Fi clients, total download traffic in MB and number of 11ac Wi-Fi client informations. (Time period is latest 7 days)",
+			"categoryCode": "0",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-28-dashboard_wifi_network_upgrade",
+			"title": "Homes that have coverage problems and need extenders",
+			"source": "FILE",
+			"description": "Related report contains all homes that need wireless network upgrade according to wireless client's coverage problems. Home details contains domain-id, wan-ip, ethernet-mac, serial and percentage of coverage problem. (Time period is latest 7 days)",
+			"categoryCode": "0",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-29-dashboard_11v_support",
+			"title": "Client distribution according to 11v support",
+			"source": "FILE",
+			"description": "Related report contains percentages of 11v supported clients for related domain-id. Summary report contains domain-id, sta_cnt, unsupported11v, supported11v, undefined11v, perc_unsupported11v, perc_supported11v, perc_undefined11v columns. (Time period is latest 7 days)",
+			"categoryCode": "3",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-30-wifi_clients",
+			"title": "Number of clients per home",
+			"source": "FILE",
+			"description": "Related report contains number of clients and nodes per home. Summary report contains domain-id, wan-ip, num_stations, num_nodes columns. (Time period is latest 7 days)",
+			"categoryCode": "3",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-33-advanced_client_detection_summary",
+			"title": "Client Distribution per Vendor and Device Type",
+			"source": "FILE",
+			"description": "Related report contains number of clients (WiFi Clients, Ethernet Clients and also Proxy Stations) according vendor and device type. Summary report contains domain-id, vendor, deviceType, numStations, numTotalStatins columns. (Time period is latest 7 days)",
+			"categoryCode": "3",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "report-51-rogue_ap_list",
+			"title": "Rogue AP Alarms",
+			"source": "FILE",
+			"description": "Related report contains rogue-ap alarm information for related homes. (Time period is latest 7 days)",
+			"categoryCode": "4",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "channelDistribution",
+			"title": "Channel Distribution",
+			"source": "DIRECT",
+			"description": "Related report contains distribution of operating 2.4GHz & 5GHz channels in field per home, node and tags. (Time period is chosen by user)",
+			"categoryCode": "1",
+			"query": "select tag as Domain,rep_date,dur_active,dfs,channel,band from tbl_rep_channel where rep_date >= :startDate and rep_date <= :endDate and tag LIKE :tag;",
+			"params": [
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "deviceTechnologyBreakdown",
+			"title": "Device Technology Breakdown",
+			"source": "DIRECT",
+			"description": "Related report contains summary of station statistics according to their vendors and technology types like Legacy, 11n etc...  (Time period is chosen by user)",
+			"categoryCode": "3",
+			"query": "select tag as Domain,rep_date,vendor,cnt_legacy,cnt_11n20,cnt_11n,cnt_11ac,cnt_1ss,cnt_2ss,cnt_3ss,cnt_4ss,cnt_total,cnt_dual from tbl_rep_station_vendors where rep_date >= :startDate and rep_date <= :endDate and tag LIKE :tag;",
+			"params": [
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "populationSummary",
+			"title": "Population Summary",
+			"source": "DIRECT",
+			"description": "Related report contains summary of wireless and ethernet client statistics. (Time period is chosen by user)",
+			"categoryCode": "2",
+			"query": "select tag as Domain,rep_date, cnt_home as homeCount, cnt_node as nodeCount, cnt_sta as stationCount, cnt_eth as ethernetClientCount from tbl_rep_population_summary where rep_date >= :startDate and rep_date <= :endDate and tag LIKE :tag;",
+			"params": [
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "stationPerformanceBreakdown",
+			"title": "Station Performance Breakdown",
+			"source": "DIRECT",
+			"description": "Related report contains summary of wireless client durations on 2.4GHz and 5GHz bands. (Time period is chosen by user)",
+			"categoryCode": "3",
+			"query": "select tag as Domain,rep_date,dur_dual_5g,dur_dual_2g,dur_dual_total,dur_single_2g,dur_all_2g,dur_all_5g,dur_all_total,phyavg_dual_2g,phyavg_dual_5g,phyavg_single_2g,phyavg_all_2g,avg_qualmax_single,avg_qualmax_dual from tbl_rep_station_performance where rep_date >= :startDate and rep_date <= :endDate and tag LIKE :tag;",
+			"params": [
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-reboot",
+			"title": "Reboot Analysis Reports",
+			"source": "FILE",
+			"description": "Top 100 rebooted devices according to total number of reboots. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-chanchange_5g",
+			"title": "Channel Change Reports for 5GHz",
+			"source": "FILE",
+			"description": "Top 100 channel changed devices according to total number of 5GHz channel changes. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-chanchange_2g",
+			"title": "Channel Change Reports for 2.4GHz",
+			"source": "FILE",
+			"description": "Top 100 channel changed devices according to total number of 2.4GHz channel changes. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-airtime_5g",
+			"title": "5GHz Airtime Analysis Reports",
+			"source": "FILE",
+			"description": "Top 100 devices according medium & high clear channel assessment on 5GHz channel. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-airtime_2g",
+			"title": "2.4GHz Airtime Analysis Reports",
+			"source": "FILE",
+			"description": "Top 100 devices according medium & high clear channel assessment on 2.4GHz channel. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-station-5g",
+			"title": "Client RSSI Report",
+			"source": "FILE",
+			"description": "Related report contains top 100 clients according to RSSI values. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-palarms_legacy",
+			"title": "Legacy Client Connected Devices",
+			"source": "FILE",
+			"description": "Top 100 legacy client connected nodes. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-palarms_node",
+			"title": "Node Installation Health",
+			"source": "FILE",
+			"description": "Top 100 non-healthy installations. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-palarms_vital",
+			"title": "Thermal Throttled Down Devices",
+			"source": "FILE",
+			"description": "Top 100 thermal throttled down device list according to total number of throttle down events. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "list-top100-palarms_radar",
+			"title": "Radar Detected Devices",
+			"source": "FILE",
+			"description": "Top 100 radar detected device list. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "top100-cpu5g",
+			"title": "5GHz CPU Usage",
+			"source": "FILE",
+			"description": "Top 100 5GHz CPU consumed devices according to average usage. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "top100-cpu2g",
+			"title": "2.4GHz CPU Usage",
+			"source": "FILE",
+			"description": "Top 100 2.4GHz CPU consumed devices according to average usage. (Time period is latest 7 days)",
+			"categoryCode": "5",
+			"params": [
+				{
+					"title": "File Name",
+					"name": "fileName",
+					"type": "nonVisible"
+				},
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 60
+			}
+		},
+		{
+			"name": "generic-consolidated-dashboard-report",
+			"title": "Generic Consolidated Dashboard",
+			"source": "DIRECT",
+			"description": "Related report contains consolidation of Population Summary, Airtime analysis, Steering performance, DFS Usages and Bandwidth Improvement . (Time period is chosen by user)",
+			"categoryCode": "0",
+			"query": "SELECT sta.tag AS DOMAIN, sta.rep_date AS 'Date', sta.home_count AS 'Number of Homes', sta.ap_count AS 'Number of APs', sta.station_count AS 'Number of Wireless Devices', FORMAT(sta.station_count/sta.home_count, 2) AS 'Wireless Devices per home', FORMAT(sta.avgDownload, 2) AS 'Average Download/day/device (MB)', FORMAT(steering.avgTime, 2) AS 'Average connection hours / day / device', FORMAT(recommend.broadbandUpdateHomeCount*100, 2) AS '% Candidates for broadband upgrade', FORMAT(recommend.wifiNetworkUpdateHomeCount*100, 2)AS '% Candidates for Wi-Fi network upgrade', FORMAT(recommend.needs_device_upgrade*100, 2) AS '% Candidates for wireless device upgrade', FORMAT(recommend.goodCoverage*100,2) AS '% Good Coverage Quality by Wireless Device', dfs.dfs_usage AS '% DFS channels usage', FORMAT(interference.cnt_2g_excellent /(interference.cnt_2g_excellent+interference.cnt_2g_airtimespikes+interference.cnt_2g_interference+interference.cnt_2g_highinterference)*100,2) AS '% Airtime Availability 2.4GHz Excellent', FORMAT(interference.cnt_5g_excellent/(interference.cnt_5g_excellent+interference.cnt_5g_airtimespikes+interference.cnt_5g_interference+interference.cnt_5g_highinterference)*100,2) AS '% Airtime Availability 5GHz Excellent', FORMAT(steering.dur_dual_5g,2) AS '% Steering - 5 GHz usage', FORMAT(steering.supported11v*100,2) AS '% Steering - 11v support', FORMAT(phyrate.qual_2_avg, 2) AS 'Phy rate@2,4 GHZ (Mbps)', FORMAT(phyrate.qual_5_avg, 2) AS 'Phy rate@5 GHZ (Mbps)', FORMAT(steering.dualBand *100, 2) AS '% dual band capable devices', FORMAT(health.healthyNodes *100, 2) AS '% healthy nodes' FROM (SELECT s.tag AS tag, s.rep_date, cnt_home AS home_count, cnt_node AS ap_count, cnt_sta AS station_count, cnt_eth AS cnt_eth, avgRxMbytes*sta_cnt /sta_cnt AS avgDownload FROM tbl_rep_population_summary s LEFT JOIN (SELECT * FROM tbl_exc_station_traffic WHERE ((rep_date >=:startDate AND rep_date <=:endDate)) ) AS traffic ON s.rep_date = traffic.rep_date AND s.tag = traffic.tag WHERE ((s.rep_date >=:startDate AND s.rep_date <=:endDate)) AND s.tag<>'ALL' UNION SELECT 'ALL' AS tag, s.rep_date, sum(s.cnt_home) AS cnt_home, sum(s.cnt_node) AS cnt_node, sum(s.cnt_sta) AS cnt_wirelessdevices, sum(s.cnt_sta)/sum(s.cnt_home) AS wdPerHome, sum(avgRxMbytes*sta_cnt) / sum(sta_cnt) AS avgDownload FROM tbl_rep_population_summary s LEFT JOIN (SELECT * FROM tbl_exc_station_traffic WHERE ((rep_date >=:startDate AND rep_date <=:endDate)) ) AS traffic ON s.rep_date = traffic.rep_date AND s.tag = traffic.tag WHERE ((s.rep_date >=:startDate AND s.rep_date <=:endDate)) GROUP BY s.rep_date) sta LEFT JOIN (SELECT p.tag AS tag, p.rep_date AS rep_date, dur_dual_total * 10 AS dur_dual_total, (dur_dual_5g/dur_dual_total) * 100 AS dur_dual_5g, (v.supported11v/(v.supported11v+v.unsupported11v+v.undefined11v)) AS supported11v, dur_all_total * 10 AS dur_all_total, c.cnt_total AS cnt_total, dur_dual_5g * 10/ dur_dual_total * 10 AS good, dur_all_total/42/c.cnt_total AS avgTime, c.cnt_dual/c.cnt_total AS dualBand FROM tbl_rep_station_performance p LEFT JOIN (SELECT * FROM tbl_exc_station11v WHERE rep_date >=:startDate AND rep_date<=:endDate) AS v ON v.rep_date = p.rep_date AND p.tag = v.tag LEFT JOIN tbl_rep_station_capabilities c ON p.rep_date = c.rep_date AND p.tag = c.tag WHERE p.rep_date >=:startDate AND p.rep_date<=:endDate AND p.tag<>'ALL' GROUP BY tag, p.rep_date UNION SELECT 'ALL' AS tag, p.rep_date AS rep_date, sum(dur_dual_total) * 10 AS dur_dual_total, (sum(dur_dual_5g)/ sum(dur_dual_total)) * 100 AS dur_dual_5g, sum(v.supported11v)/sum((v.supported11v+v.unsupported11v+v.undefined11v)) AS supported11v, sum(dur_all_total) * 10 AS dur_all_total, sum(c.cnt_total) AS cnt_total, sum(dur_dual_5g) * 10/sum(dur_dual_total) * 10 AS good, sum(dur_all_total)/42/sum(c.cnt_total) AS avgTime, sum(c.cnt_dual)/sum(c.cnt_total) AS dualBand FROM tbl_rep_station_performance p LEFT JOIN (SELECT * FROM tbl_exc_station11v WHERE rep_date >=:startDate AND rep_date<=:endDate) AS v ON v.rep_date = p.rep_date AND p.tag = v.tag LEFT JOIN tbl_rep_station_capabilities c ON p.rep_date = c.rep_date AND p.tag = c.tag WHERE p.rep_date >=:startDate AND p.rep_date<=:endDate GROUP BY p.rep_date) steering ON steering.tag=sta.tag AND steering.rep_date=sta.rep_date LEFT JOIN (SELECT ra.tag AS tag, ra.rep_date, ra.total_home_cnt AS total_home_cnt, ra.needs_upgrade/ ra.total_home_cnt AS broadbandUpdateHomeCount, numHomeCoverageProblem/ ra.total_home_cnt AS wifiNetworkUpdateHomeCount, du.needs_upgrade/ ra.total_home_cnt AS needs_device_upgrade, numTotalHome AS numTotalHome, (numTotalSta-numStaCoverageProblem)/numTotalSta as goodCoverage FROM tbl_exc_ra_broadband ra JOIN (SELECT * FROM tbl_exc_coverage_problem WHERE rep_date >=:startDate AND rep_date <=:endDate ) AS cp ON ra.rep_date = cp.rep_date AND ra.tag = cp.tag JOIN (SELECT * FROM tbl_exc_ra_wifi_device_upgrade WHERE rep_date >=:startDate AND rep_date <=:endDate ) AS du ON ra.rep_date = du.rep_date AND ra.tag = du.tag WHERE ra.rep_date >=:startDate AND ra.rep_date <=:endDate AND ra.tag<>'ALL' UNION SELECT 'ALL' AS tag, ra.rep_date, SUM(ra.total_home_cnt) AS total_home_cnt, SUM(ra.needs_upgrade)/SUM(ra.total_home_cnt) AS broadbandUpdateHomeCount, SUM(numHomeCoverageProblem)/SUM(ra.total_home_cnt) AS wifiNetworkUpdateHomeCount, SUM(du.needs_upgrade)/SUM(ra.total_home_cnt) AS needs_device_upgrade, SUM(numTotalHome) AS numTotalHome, (SUM(numTotalSta)-SUM(numStaCoverageProblem))/SUM(numTotalSta) as goodCoverage FROM tbl_exc_ra_broadband ra JOIN (SELECT * FROM tbl_exc_coverage_problem WHERE rep_date >=:startDate AND rep_date <=:endDate ) AS cp ON ra.rep_date = cp.rep_date AND ra.tag = cp.tag JOIN (SELECT * FROM tbl_exc_ra_wifi_device_upgrade WHERE rep_date >=:startDate AND rep_date <=:endDate ) AS du ON ra.rep_date = du.rep_date AND ra.tag = du.tag WHERE ra.rep_date >=:startDate AND ra.rep_date <=:endDate GROUP BY ra.rep_date) recommend ON recommend.tag=sta.tag AND recommend.rep_date=sta.rep_date LEFT JOIN (SELECT tag, rep_date, (rssi_0_go_min+rssi_0_ex_min)/(rssi_0_ex_min+rssi_0_go_min+rssi_0_fa_min+rssi_0_po_min) as staGood FROM tbl_exc_client_coverage_distribution WHERE rep_date >=:startDate AND rep_date <=:endDate AND tag<>'ALL' UNION SELECT 'ALL' AS tag, rep_date, (sum(rssi_0_go_min)+sum(rssi_0_ex_min))/(sum(rssi_0_ex_min)+sum(rssi_0_go_min)+sum(rssi_0_fa_min)+sum(rssi_0_po_min)) as staGood FROM tbl_exc_client_coverage_distribution WHERE rep_date >=:startDate AND rep_date <=:endDate GROUP BY rep_date) coverage ON coverage.rep_date=sta.rep_date AND coverage.tag=sta.tag LEFT JOIN (SELECT tag, rep_date, dfs_usage_5g, nondfs_usage_5g, FORMAT((dfs_usage_5g * 100 / (nondfs_usage_5g + dfs_usage_5g)),1) AS dfs_usage FROM (SELECT tag, rep_date, sum(CASE WHEN (channel > 30 AND dfs = 1) THEN dur_active ELSE 0 END) AS dfs_usage_5g, sum(CASE WHEN (channel > 30 AND dfs = 0) THEN dur_active ELSE 0 END) AS nondfs_usage_5g FROM tbl_rep_channel WHERE rep_date >=:startDate AND rep_date <=:endDate AND tag <> 'ALL' GROUP BY rep_date, tag) AS innerchannel UNION SELECT 'ALL' AS tag, rep_date, sum(dfs_usage_5g), sum(nondfs_usage_5g), FORMAT((sum(dfs_usage_5g) * 100 / (sum(nondfs_usage_5g) + sum(dfs_usage_5g))),1) AS dfs_usage FROM (SELECT tag, rep_date, sum(CASE WHEN (channel > 30 AND dfs = 1) THEN dur_active ELSE 0 END) AS dfs_usage_5g, sum(CASE WHEN (channel > 30 AND dfs = 0) THEN dur_active ELSE 0 END) AS nondfs_usage_5g FROM tbl_rep_channel WHERE rep_date >=:startDate AND rep_date <=:endDate GROUP BY rep_date, tag) AS abc GROUP BY abc.rep_date) dfs ON dfs.tag=sta.tag AND dfs.rep_date=sta.rep_Date LEFT JOIN (SELECT tag, rep_date, cnt_2g_excellent, cnt_2g_airtimespikes, cnt_2g_interference, cnt_2g_highinterference, cnt_5g_excellent, cnt_5g_airtimespikes, cnt_5g_interference, cnt_5g_highinterference FROM tbl_rep_population_health WHERE rep_date >=:startDate AND rep_date <=:endDate AND tag <> 'ALL' UNION SELECT 'ALL' AS tag, rep_date, sum(cnt_2g_excellent), sum(cnt_2g_airtimespikes), sum(cnt_2g_interference), sum(cnt_2g_highinterference), sum(cnt_5g_excellent), sum(cnt_5g_airtimespikes), sum(cnt_5g_interference), sum(cnt_5g_highinterference) FROM tbl_rep_population_health WHERE rep_date >=:startDate AND rep_date <=:endDate GROUP BY rep_date) interference ON interference.tag=sta.tag AND interference.rep_date=sta.rep_date LEFT JOIN (SELECT tag, rep_date, sta_count * entries_2_dur_hour * qual_2_avg / (sta_count * entries_2_dur_hour) AS 'qual_2_avg', sta_count * entries_5_dur_hour * qual_5_avg / (sta_count * entries_5_dur_hour) AS 'qual_5_avg' FROM tbl_exc_dual_client_performance WHERE rep_date >=:startDate AND rep_date <=:endDate AND TAG <>'ALL' GROUP BY tag, rep_date UNION SELECT 'ALL', rep_date, SUM(sta_count * entries_2_dur_hour * qual_2_avg) / (SUM(sta_count * entries_2_dur_hour)) AS 'qual_2_avg', SUM(sta_count * entries_5_dur_hour * qual_5_avg) / (SUM(sta_count * entries_5_dur_hour)) AS 'qual_5_avg' FROM tbl_exc_dual_client_performance WHERE rep_date >=:startDate AND rep_date <=:endDate GROUP BY rep_date) phyrate ON phyrate.rep_date=sta.rep_date AND phyrate.tag=sta.tag LEFT JOIN ( select tag, rep_date, (numNodes-numCloseNodes-numWeakNodes-numBadNodes)/numNodes as healthyNodes from tbl_rep_node_placement where ( rep_date >=:startDate and rep_date <=:endDate ) and tag<>'ALL' UNION select 'ALL' as tag, rep_date, (sum(numNodes) -sum(numCloseNodes)-sum(numWeakNodes)-sum(numBadNodes))/sum(numNodes) as healthyNodes from tbl_rep_node_placement where ( rep_date >=:startDate and rep_date <=:endDate ) group by rep_date ) health ON health.tag=sta.tag and health.rep_date=sta.rep_date WHERE (:tag ='%%' OR sta.tag LIKE :tag) ORDER BY sta.rep_date, sta.tag",
+			"processor":"GenericConsolidatedDashboardReportProcessor",
+			"params": [
+				{
+					"title": "Start Date",
+					"name": "startDate",
+					"type": "date"
+				},
+				{
+					"title": "End Date",
+					"name": "endDate",
+					"type": "date"
+				}
+			],
+			"limits": {
+				"maxDay": 30
+			}
+		}
+	],
+	"categories": [
+		{
+			"code": "0",
+			"description": "Wi-Fi Performance Reports"
+		},
+		{
+			"code": "1",
+			"description": "Channel Reports"
+		},
+		{
+			"code": "2",
+			"description": "Device-Hardware Reports"
+		},
+		{
+			"code": "3",
+			"description": "Client Reports"
+		},
+		{
+			"code": "4",
+			"description": "Installation Reports"
+		},
+		{
+			"code": "5",
+			"description": "Top 100 Device Lists"
+		}
+	]
+}

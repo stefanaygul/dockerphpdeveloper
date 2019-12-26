@@ -1,0 +1,24 @@
+{
+	"alarms" : [
+		{
+			"id": "nodeInstallationHealth",
+			"localId" : "nodeInstallationHealth",
+			"description" : "Response contains health statistics for meshed nodes and homes, mesh links are categorized into 4 groups weak, bad, too-close and healthy."
+		},
+		{
+			"id": "legacyClient",
+			"localId" : "legacyClient",
+			"description" : "Response contains number of Legacy Client Detections according to report date."
+		},
+		{
+			"id": "radarDetection",
+			"localId" : "radarDetection",
+			"description" : "Response contains percentage of radar detections."
+		},
+		{
+			"id": "nodeVital",
+			"localId" : "nodeVital",
+			"description" : "Response contains percentage of thermal throttle downs that may cause performance degredation in daily use."
+		}
+	]
+}

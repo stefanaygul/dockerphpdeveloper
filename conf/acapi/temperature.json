@@ -1,0 +1,30 @@
+{
+	"limits": [
+		{
+			"pid" : "4920",
+			"state" : {
+				"NORMAL" : {
+					"2GHz" : 100,
+					"5GHz" : 100,
+					"CPU" : 100,
+					"comparison" : "lower",
+					"check" : "all"
+				},
+				"HIGH" : {
+					"2GHz" : 100,
+					"5GHz" : 100,
+					"CPU" : 100,
+					"comparison" : "higher",
+					"check" : "any"
+				},
+				"CRITICAL" : {
+					"2GHz" : 110,
+					"5GHz" : 110,
+					"CPU" : 115,
+					"comparison" : "higher",
+					"check" : "any"
+				}
+			}
+		}
+	]
+}

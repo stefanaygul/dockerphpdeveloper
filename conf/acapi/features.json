@@ -1,0 +1,114 @@
+{
+    "features" : [ {
+        "name" : "EstimatedThroughput",
+        "enabled" : true
+    }, {
+        "name" : "DataUsage",
+        "enabled" : true
+    }, {
+        "name" : "BULK",
+        "enabled" : true
+    }, {
+        "name" : "ChannelSpectrum",
+        "enabled" : true
+    }, {
+        "name" : "SupportHomeIdentifier",
+        "enabled" : true
+    }, {
+        "name" : "Portal",
+        "enabled" : true
+    }, {
+        "name" : "ProactiveAnalytics",
+        "enabled" : true
+    }, {
+        "name" : "PopulationNodeList",
+        "enabled" : true
+    }, {
+        "name" : "ExecutiveDashboard",
+        "enabled" : true
+    }, {
+        "name" : "VideoNodes",
+        "enabled" : false
+    }, {
+        "name" : "DeviceLicenseReporting",
+        "enabled" : false
+    }, {
+        "name" : "InfraDomainSync",
+        "enabled" : true
+    }, {
+        "name" : "Support30d",
+        "enabled" : false
+    }, {
+        "name" : "Support30dUI",
+        "enabled" : false
+    }, {
+        "name" : "ProvisioningGreeterSync",
+        "enabled" : false
+    }, {
+        "name" : "MultiAP",
+        "enabled" : false
+    }, {
+        "name" : "LiveControlsAPI",
+        "enabled" : true,
+        "level" : 3
+    }, {
+        "name" : "LiveControlsUI",
+        "enabled" : true,
+        "level" : 3
+    }, {
+        "name" : "LiveControlsPrivate",
+        "enabled" : true,
+        "level" : 3
+    }, {
+        "name" : "ProvisioningServiceModeSynch",
+        "enabled" : false
+    }, {
+        "name" : "AutoProvisioningOnPreregFail",
+        "enabled" : true
+    }, {
+        "name" : "DcRedirect",
+        "enabled" : true
+    }, {
+        "name" : "XmmpRedirect",
+        "enabled" : true
+    }, {
+        "name" : "CloudAssistedChannelSelection",
+        "enabled" : true
+    }, {
+        "name" : "Tokenizer",
+        "enabled" : false
+    }, {
+        "name" : "NodeDiscoveryByDc",
+        "enabled" : true
+    }, {
+        "name" : "NodeDiscoveryByXmpp",
+        "enabled" : false
+    }, {
+        "name" : "AcceptActiveNodePreregRequest",
+        "enabled" : true
+    }, {
+        "name" : "AutoProvisioningOnNodeDiscovery",
+        "enabled" : true
+    }, {
+        "name" : "Diagnostics",
+        "enabled" : false
+    }, {
+        "name" : "NodeActivityLogging",
+        "enabled" : true
+    }, {
+        "name" : "ProvisioningGreeterCleanup",
+        "enabled" : true
+    }, {
+        "name" : "WFEI",
+        "enabled" : false
+    }, {
+        "name" : "ClientControls",
+        "enabled" : false
+    }, {
+        "name" : "StationBadLinkMinutes",
+        "enabled" : false
+    }, {
+        "name" : "ClientEventView",
+        "enabled" : false
+    } ]
+}
